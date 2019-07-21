@@ -11,6 +11,7 @@ public class ReversingArrayWithoutSecondArray {
 		System.out.println("reverse array");
 		for(int i:arr)
 			System.out.print(" "+i);
+		System.out.println("hiii");
 		
 	}
 
