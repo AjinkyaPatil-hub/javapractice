@@ -1,4 +1,4 @@
-
+//all code uploaded to git 
 public class LinedList {
 
 	 //Node is the class which create the node structure By creating 
@@ -12,6 +12,7 @@ public class LinedList {
 		Node newNode=new Node();
 		newNode.data=data;
 		newNode.next=null;
+		
 		
 		//check if the node is first or not
 		
