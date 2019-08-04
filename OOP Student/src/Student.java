@@ -67,7 +67,7 @@ public class Student {
 	
 	@Override
 	public String toString() {
-		return "Student [studId=" + studId + ", studName=" + studName
+		return "\nStudent [studId=" + studId + ", studName=" + studName
 				+ ", studAge=" + studAge + ", studFees=" + studFees
 				+ ", adress=" + adress + "]";
 	}

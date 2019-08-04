@@ -2,7 +2,6 @@ package com.book;
 
 public class Book {
 
-
 	private String bookName;
 	private String bookAuthor;
 	private double bookRate;

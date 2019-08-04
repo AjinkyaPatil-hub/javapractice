@@ -11,9 +11,11 @@ public class ProgramToReverseString {
 //			char c=str.charAt(i);
 //			System.out.print(c);
 //		}
-		for(int i=stlen-1;i>=0;i--){
-			rev=rev+str.charAt(i);
-		}
+//		for(int i=str.length();i>=0;i--){
+//			rev=rev+str.charAt(i);
+//		}
+//		
+		str.toUpperCase();
 		System.out.println(rev);
 	}
 

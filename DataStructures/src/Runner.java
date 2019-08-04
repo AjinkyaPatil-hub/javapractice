@@ -5,38 +5,44 @@ public class Runner {
 		LinedList ls=new LinedList();
 		TrickyLinkedList tl=new TrickyLinkedList();
 		
-		tl.insertNode(18);
-		tl.insertNode(32);
-		tl.insertNode(87);
-		tl.insertNode(87);
-		tl.insertNode(889);
-		tl.insertNode(8);
-		tl.insertNode(15);
-		tl.insertNode(15);
-		tl.insertNode(15);
+		ls.insertNode(4);
+		ls.insertNode(5);
+		ls.insertNode(6);
+		ls.insertNode(6);
+		ls.insertNode(6);
+		ls.isLoop();
+
+		//ls.insertNode(66);
 		
-		tl.remDupFromSortedList();
+//		ls.countOccurance(6);
+		//ls.middle();
+		//ls.NthIndexFromLast(2);
+		//ls.NthIndex(3);
 		
-		tl.printNode();	
+//	 boolean b= ls.search(6);
+//		System.out.println(b);
+//		//ls.printNode();
 		
-		
-		if(true)
-			return;
-		tl.remDupFromSortedList();
-		ls.insertNode(18);
-		ls.insertAtEnd(66);
-		ls.insertNode(32);
-		ls.insertNode(87);
-		ls.insertNode(88);
-		ls.insertNode(889);
+		//ls.insertAtEnd(8);
 		//ls.deletAtFirst();
 		//ls.deleteLastNode();
 		//ls.addNodeStart(6);
-		//ls.insertAnyLocatio(0, 55);
-		//ls.deleteAt(2);
-		
-	
-		
+	//	ls.insertAnyLocatio(3, 55);
+		 // ls.deleteAt(2);
+//		int len=ls.length();
+//		System.out.println(len);
+//		
+
+//		tl.insertNode(18);
+//		tl.insertNode(32);
+//		tl.insertNode(87);
+//		tl.insertNode(87);
+//		
+//		
+//		//tl.remDupFromSortedList();
+//		
+//		tl.printNode();	
+//		
 		
 	}
 

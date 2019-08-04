@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -5,11 +7,14 @@ public class AppMain {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner=new Scanner(System.in);
 		
+		
+		
+		
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter the number of student you want:");
 		int noStud=scanner.nextInt();
-		StudentServices service=new StudentServiceImpl(noStud);
+		StudentServiceImpl service=new StudentServiceImpl(noStud);
 		
 		for(int i=0;i<noStud;i++){
 		System.out.println("Enter studentID");
@@ -20,6 +25,7 @@ public class AppMain {
 		int stAge = scanner.nextInt();
 		System.out.println("Enter Student Fees");
 		double stFees= scanner.nextDouble();
+		
 		
 		//entering address
 		System.out.println("Enter student AdressID");
@@ -36,6 +42,19 @@ public class AppMain {
 		System.out.println(service.getStudent(sId));
 		}
 		//to print all students data
-		System.out.println("all students"+service.getStudents());
+		
+//		Adress ad=new Adress(2, 55, "sa");
+//		Student stu=new Student(2, "as", 22, 25, ad);
+//		Adress ad2=new Adress(3, 55, "sa");
+//		Student stu2=new Student(2, "as", 22, 25, ad);
+//		Adress ad3=new Adress(3, 55, "sa");
+//		Student stu3=new Student(4, "as", 22, 25, ad);
+		System.out.println("all students"+Arrays.toString(service.getStudents()));
+
+		System.out.println("deleted student"+service.deleteStudent(2));
+		
+		System.out.println("all students"+Arrays.toString(service.getStudents()));
+		
+		//System.out.println("Updated stud"+service.updateStudent(stu));
 	}
 }
